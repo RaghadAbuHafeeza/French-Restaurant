@@ -1,0 +1,413 @@
+/*public*/
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Allura&family=Crimson+Text:ital@1&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    padding:0;
+    margin:0;
+} 
+body{
+    font-family: 'Alegreya', serif;
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+/*حل مشكلة الفلوت الطريقة الثانية*/
+.clrfix{
+    clear: both;
+}
+a{
+    text-decoration: none;
+    padding-top: 10px;
+}
+.options{
+    position: fixed;
+    right: 0;
+    top: 100px;
+    background-color: #fff;
+    width: 50px;
+    height: 100px;
+    z-index: 9999999;
+}
+
+.options li a{
+   padding-top: 20px; 
+   font-size: 20px;
+   margin-left: 10px;
+   display: block;
+}
+
+
+/*start header*/
+.header{
+    position: relative;
+    background-image: url('../img/shutterstock_277750193.jpg');
+    background-size: cover;
+    text-align: center;
+    color: white;
+    height: 100vh;
+}
+.overlay{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.navbar{
+    overflow: hidden;
+    padding-top: 30px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.navbar .logo{
+    float: left;
+    width: 40%;
+}
+.navbar .logo img{
+    width: 25%;
+}
+.navbar .nav{
+    float: left;
+    width: 60%;
+    padding-top: 30px;
+}
+.navbar .nav .list-item{
+    display: inline-block;
+}
+.navbar .nav .list-item a{
+   color: #fff;
+   font-size: 20px;
+   margin-right: 20px;
+}
+.header-content{
+    padding-top: 100px;
+}
+.header-content img{
+   width: 25%;
+}
+.header h1{
+    font-size: 76px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.header p{
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 20px;
+}
+.btn{
+    padding: 15px 30px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn-learn{
+    background-color: #c1ab84;
+    color: #fff;
+}
+.btn-learn:hover{
+    background-color: #fff;
+    color: #000;
+}
+/*end header*/
+
+/*start about*/
+.about-img{
+float: left;
+width: 40%;
+}
+.about-img img{
+    width: 100%;
+}
+.about-content{
+    float: left;
+    width: 60%;
+    text-align: center;
+    margin-top: 100px;
+}
+/*حل مشكلة الفلوت الطريقة الاولى
+.about .container{
+    overflow: hidden;
+}*/
+.about-content h2{
+    font-size: 36px;
+    color: #253048;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.about-content h3{
+    font-size: 28px;
+    font-weight: 400;
+    font-family: 'Dancing Script', cursive;
+    color: #c1ab84;
+    margin-bottom: 20px;
+}
+.about-content p{
+    line-height: 30px;
+    font-size: 18px;
+    width: 74%;
+    margin: auto;
+    text-align: left;
+}
+.about-content ul li{
+    width: 74%;
+    margin: auto;
+    overflow: hidden;
+}
+.about-content ul li i{
+    background-color: #c1ab84;
+    color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    float: left;
+}
+.about-content ul li span{
+    float: left;
+    margin-top: 35px;
+    margin-left: 30px;
+    font-size: 17px;
+}
+/*end about*/
+
+/*start reviewers*/
+.reviewers,.location{
+    background-color: #f8f8f8;
+    padding: 100px;
+}
+.reviewers-desc,.location-desc{
+    float: left;
+    width: 60%;
+}
+.reviewers-desc h2,.location-desc h2{
+    color: #253048;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.reviewers-desc h3{
+    font-family: "Dancing Script";
+    color: #c1ab84;
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+.reviewers-desc p,.location-desc p{
+    font-size: 18px;
+    width: 90%;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.reviewers-desc i,.location-desc i{
+    margin-bottom: 20px;
+    margin-right: 10px;
+    color: #c1ab84;
+}
+.reviewers-img{
+    float: left;
+    width: 40%;
+}
+.reviewers-img img{
+    width: 100%;
+}
+.cover{
+    background-image: url(http://www.engage.veented.com/restaurant/wp-content/uploads/sites/3/2017/04/shutterstock_280369721.jpg?id=609);
+    /*height: 50vh;     ممكن نعمل بادنغ بدل ما نعطي ارتفاع*/
+    padding: 250px 0;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+/*end reviewers*/
+/*menu section*/
+.menu{
+    text-align: center;
+    padding-top: 50px;
+}
+.menu h2{
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.menu .subheading{
+    color: #c1ab84;
+    font-size: 28px;
+    font-family: "Dancing Script";
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+ .menu-content .item{
+    float: left;
+    width: 33.33%;
+ }
+ .menu-content img{
+    width: 90%;
+ }
+ .menu-content .item h3{
+    font-size: 21px;
+    margin-top: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+ }
+ .menu-content .item p{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+    line-height: 30px;
+ }
+ .menu-content a{
+    background-color: #c1ab84;
+    color: #fff;
+    padding: 11px 20px;
+    border: 0;
+    border-radius: 10px;
+ }
+ .menu-content a .arrow{
+    display: none;
+ }
+ .menu-content a:hover .arrow{
+    display: unset;
+ }
+/*end menu section*/
+.location{
+    margin-top: 60px;
+}
+.location-desc i{
+    color: #fff;
+    background: #aaa;
+    background-color: #c1ab84;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: left;
+}
+.location iframe{
+    float: left;
+    width: 40%;
+}
+/*footer*/
+.footer{
+    background-color: #403d38;
+    padding-top: 30px;
+}
+.footer .footer-content{
+    overflow: hidden;
+}
+.footer .container{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.footer .item{
+   float: left;
+   width: 25%;
+   color: #969696;
+}
+.footer .item h2{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-weight: 400;
+    cursor: text;
+}
+.footer .item p{
+    font-size: 18px;
+    line-height: 1.86em;
+    margin-bottom: 20px;
+    font-size: 13px;
+    margin-right: 50px;
+    cursor: text;
+}
+.footer .item a{
+    color: #A9A9A9;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 400;
+   /* margin-bottom: 20px;
+   /* display: block;*/
+    transition: color 1s;
+    cursor: pointer;
+}
+.footer .item a:hover {
+    color: #fff;
+}
+
+.footer .item .arr::before{
+    content: '\f105';/*بالسي اس اس لازم اضع رقم الايقونة*/
+    font-family: FontAwesome;/*لازم نضيفها في حال ضفت ايقونة بالسي اس اس */
+    margin-right: 10px;
+    font-size: 10px;
+}
+.footer .item .U-L .arr{
+    padding-bottom: 20px;
+}
+.footer .item .O-H .arr{
+    padding-bottom: 20px;
+}
+.footer .item .C-D .contact{
+    padding-bottom: 33px;
+}
+.footer .footer-content li{
+    margin-bottom: 20px;
+}
+.footer .footer-content li i{
+    margin-right: 10px;
+}
+
+.footer .item .contact{
+    padding-bottom: 20px;
+}
+.footer .footer-second{
+    background-color: #353330;
+    text-align: center;
+    padding-top: 50px;          /*شو اثرت؟ اشوف بعد ما احل مشكلة الخلفية*/
+    padding-bottom: 40px;
+}
+.footer .footer-second p{
+    font-size: 18px;
+    color: #777;
+    margin: auto;
+    width: 19%;
+    font-weight: 400;
+}
+.footer .footer-second .icons{
+    margin-top: 30px;
+}
+.footer .footer-second .icons i{
+    background-color: #484540;
+    color: #8c8a86;
+    padding: 20px;
+    border-radius: 30px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.footer .footer-second .icons i:hover{
+    color: #fff;
+}
+.footer .footer-second .icons #A:hover{
+    background-color: #3b5998;
+}
+.footer .footer-second .icons #B:hover{
+    background-color: #125688;
+}
+
+.footer .footer-second .icons #C:hover{
+    background-color: #32506d ;
+}
+
+.footer .footer-second .icons #D:hover{
+    background-color: #00aced;
+}
+   
+ 
+
+

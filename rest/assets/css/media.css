@@ -1,0 +1,344 @@
+@media (max-width: 576px){
+    .container{
+        width:80%;
+    }
+    .options{
+        width: 40px;
+        height: 80px;
+    }
+    .options li a{
+        padding-top: 15px; 
+        font-size: 15px;
+     }
+    .navbar .logo{
+        float: none;
+        width: 400px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .navbar .logo .img{
+        width: 50%;
+        font-size: 50px;
+    }
+    .navbar .nav{
+        float: none;
+        width: 95%;
+    }
+    .navbar .nav .list-item a{
+        font-size: 20px;
+    } 
+    .header-content{
+        padding-top: 30px;
+    }
+    .header-content img{
+       width: 60%;
+    }
+    .header h1{
+        font-size: 40px;
+    }
+    .header p{
+        font-size: 20px;
+        font-family: 'Dancing Script', cursive;
+        margin-bottom: 30px;
+    }
+    .btn{
+        padding: 10px 10px;
+        margin: 10px;
+    }
+    /*************************************************************/
+    .about-img{
+        float: none;
+        width: 100%;
+        padding-top: 50px;
+    }
+    .about-content{
+        float: none;;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .about-content h2{
+        font-size: 25px;
+    }
+    .about-content h3{
+        font-size: 20px;
+    }
+    .about-content p{
+        font-size: 20px;
+        width: 100%;
+    }
+    .about-content ul li{
+        width: 100%;
+    }
+    /*****************************************************/
+    .reviewers-desc,.location-desc{
+        float: none;
+        width: 100%;
+    }
+    .reviewers,.location{
+        padding: 20px;
+    }
+    .reviewers-desc,.location-desc{
+        float: none;
+        width: 100%;
+    }
+    .reviewers-desc h2,.location-desc h2{
+        font-size: 45px;
+        padding-top: 20px;
+    }
+    .reviewers-desc h3{
+        font-size: 30px;
+    }
+    .reviewers-desc p,.location-desc p{
+        font-size: 20px;
+        width: 100%;
+    }
+    .reviewers-img{
+        float: none;
+        width: 100%;
+    }
+    .reviewers-img img{
+        padding-top: 60px;
+        width: 100%;
+    }
+    .reviewers-desc i,.location-desc i{
+        font-size: 20px;
+    }
+    .reviewers-desc .span,.location-desc .span{
+        font-size: 15px;
+    }
+    /*****************************************************/
+    .menu-content .item{
+        float: none;
+        width: 100%;
+    }
+    .menu-content img{
+        width: 100%;
+    }
+    .menu-content .item h3{
+        font-size: 25px;
+    }
+    .menu-content .item p{
+        width: 80%;
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    /***************************************************/
+    .location iframe{
+        float: none;
+        width: 100%;
+    }
+    /****************************************************/
+    .footer .item{
+        float: none;
+        width: 100%;  
+    }
+    .footer .item h2{
+        font-size: 25px;
+    }
+    .footer .item p{
+        font-size: 20px;
+    }
+    .footer .item a{
+        font-size: 20px;
+    }
+    .footer .item .O-H .arr{
+        font-size: 20px;
+    }
+    .footer .item .C-D .arr2{
+        font-size: 20px;
+    }
+    .footer .footer-second p{
+        font-size: 20px;
+        width: 80%;  
+    }
+    .footer .footer-second img{
+        width: 250px;
+    }
+}
+
+/*/////////////////////////////////////*/
+/*/////////////////////////////////////*/
+
+@media (min-width: 577px) and (max-width: 768px){
+    .container{
+        width:80%;
+    }
+    .options{
+        width: 40px;
+        height: 80px;
+    }
+    .options li a{
+        padding-top: 15px; 
+        font-size: 15px;
+     }
+    .navbar .logo{
+        float: none;
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .navbar .logo .img{
+        width: 50%;
+        font-size: 50px;
+    }
+    .navbar .nav{
+        float: none;
+        width: 95%;
+    }
+    .navbar .nav .list-item a{
+        font-size: 30px;
+    }
+    .header-content{
+        padding-top: 50px;
+    }
+    .header-content img{
+       width: 50%;
+    }
+    .header h1{
+        font-size: 50px;
+    }
+    .header p{
+        font-size: 30px;
+        font-family: 'Dancing Script', cursive;
+        margin-bottom: 30px;
+    }
+    .btn{
+        font-size: 30px;
+        padding: 10px 10px;
+        margin: 10px;
+    }
+    /*************************************************************/
+    .about-img{
+        float: none;
+        width: 100%;
+        padding-top: 50px;
+    }
+    .about-content{
+        float: none;;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .about-content .span{
+        font-size: 23px;
+    }
+    .about-content h2{
+        font-size: 40px;
+    }
+    .about-content h3{
+        font-size: 30px;
+    }
+    .about-content p{
+        font-size: 23px;
+        width: 100%;
+    }
+    .about-content ul li{
+        width: 100%;
+    }
+    /*****************************************************/
+    .reviewers-desc,.location-desc{
+        float: none;
+        width: 100%;
+    }
+    .reviewers,.location{
+        padding: 20px;
+    }
+    .reviewers-desc,.location-desc{
+        float: none;
+        width: 100%;
+    }
+    .reviewers .reviewers-desc .span{
+        font-size: 23px;
+    }
+    .reviewers-desc h2,.location-desc h2{
+        font-size: 50px;
+        padding-top: 20px;
+    }
+    .reviewers-desc h3{
+        font-size: 30px;
+    }
+    .reviewers-desc p,.location-desc p{
+        font-size: 23px;
+        width: 100%;
+    }
+    .reviewers-img{
+        float: none;
+        width: 100%;
+    }
+    .reviewers-img img{
+        padding-top: 60px;
+        width: 100%;
+    }
+    .reviewers-desc i,.location-desc i{
+        font-size: 20px;
+    }
+    .reviewers-desc .span,.location-desc .span{
+        font-size: 15px;
+    }
+    /*****************************************************/
+    .menu h2{
+        font-size: 50px;
+    }
+    .menu .subheading{
+        font-size: 35px;
+    }
+    .menu-content .item{
+        float: none;
+        width: 100%;
+    }
+    .menu-content img{
+        width: 100%;
+    }
+    .menu-content .item h3{
+        font-size: 35px;
+    }
+    .menu-content .item p{
+        width: 80%;
+        font-size: 25px;
+        padding-bottom: 30px;
+    }
+    .menu-content a{
+        font-size: 23px;
+        padding: 15px 30px;
+     }
+    /***************************************************/
+    .location iframe{
+        float: none;
+        width: 100%;
+    }
+    .location h2{
+        font-size: 50px;
+    }
+    .location h3{
+        font-size: 30px;
+    }
+    .location .span{
+        font-size: 20px;
+    }
+    /****************************************************/
+    .footer .item{
+        float: none;
+        width: 100%;  
+    }
+    .footer .item h2{
+        font-size: 30px;
+    }
+    .footer .item p{
+        font-size: 25px;
+    }
+    .footer .item a{
+        font-size: 25px;
+    }
+    .footer .item .O-H .arr{
+        font-size: 25px;
+    }
+    .footer .item .C-D .arr2{
+        font-size: 25px;
+    }
+    .footer .footer-second p{
+        font-size: 25px;
+        width: 80%;  
+    }
+    .footer .footer-second img{
+        width: 300px;
+    }
+}
